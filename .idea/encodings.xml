@@ -3,5 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/motoInventory-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/motoInventory-service-registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/motoinventory-service-system/starter-code/moto-inventory-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/motoinventory-service-system/starter-code/vin-lookup" charset="UTF-8" />
   </component>
 </project>
