@@ -2,6 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8829ca1-ee35-4878-8abc-626f594eee1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/motoInventory-config-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motoInventory-config-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motoInventory-config-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motoInventory-config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motoInventory-config-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motoInventory-config-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motoInventory-config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motoInventory-config-server/src/main/java/com/trilogyed/motoInventoryconfigserver/MotoInventoryConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motoInventory-config-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motoInventory-config-server/src/test/java/com/trilogyed/motoInventoryconfigserver/MotoInventoryConfigServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motoInventory-service-registry/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motoInventory-service-registry/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motoInventory-service-registry/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motoInventory-service-registry/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motoInventory-service-registry/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motoInventory-service-registry/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motoInventory-service-registry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motoInventory-service-registry/src/main/java/com/trilogyed/motoInventoryserviceregistry/MotoInventoryServiceRegistryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motoInventory-service-registry/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motoInventory-service-registry/src/test/java/com/trilogyed/motoInventoryserviceregistry/MotoInventoryServiceRegistryApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +35,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TbvdnTqAvgmDPSS5iuflb1tNao" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
@@ -47,10 +75,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
