@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8829ca1-ee35-4878-8abc-626f594eee1a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/motoinventory-service-system/starter-code/moto-inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/motoinventory-service-system/starter-code/moto-inventory-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/motoinventory-service-system/starter-code/moto-inventory-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/motoinventory-service-system/starter-code/moto-inventory-service/src/main/resources/bootstrap.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
