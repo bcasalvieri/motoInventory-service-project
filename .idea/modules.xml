@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/motoInventory-config-server/motoInventory-config-server.iml" filepath="$PROJECT_DIR$/motoInventory-config-server/motoInventory-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/motoInventory-service-registry/motoInventory-service-registry.iml" filepath="$PROJECT_DIR$/motoInventory-service-registry/motoInventory-service-registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/motoinventory-service-system.iml" filepath="$PROJECT_DIR$/.idea/motoinventory-service-system.iml" />
     </modules>
   </component>
