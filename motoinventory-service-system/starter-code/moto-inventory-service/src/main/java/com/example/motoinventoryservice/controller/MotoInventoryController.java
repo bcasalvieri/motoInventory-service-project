@@ -1,5 +1,6 @@
 package com.example.motoinventoryservice.controller;
 
+import com.example.motoinventoryservice.dao.MotoInventoryDao;
 import com.example.motoinventoryservice.model.Motorcycle;
 import com.example.motoinventoryservice.model.Vehicle;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +21,9 @@ import java.util.Random;
 @RestController
 @RefreshScope
 public class MotoInventoryController {
+    @Autowired
+    MotoInventoryDao dao;
+
     @Autowired
     private DiscoveryClient discoveryClient;
 
@@ -57,8 +61,7 @@ public class MotoInventoryController {
     @ResponseStatus(value = HttpStatus.CREATED)
     public Motorcycle createMotorcycle(@RequestBody @Valid Motorcycle motorcycle) {
         Random rnd = new Random();
-
-        motorcycle.setId(rnd.nextInt(9999));
+        motorcycle = dao.addMotorcycle(motorcycle);
 
         return motorcycle;
     }
@@ -69,16 +72,7 @@ public class MotoInventoryController {
         if (motoId < 1) {
            throw new IllegalArgumentException("MotoId must be greater than 0.");
         }
-
-        Motorcycle moto = new Motorcycle();
-        moto.setId(motoId);
-        moto.setVin("54321");
-        moto.setMake("Ducati");
-        moto.setModel("Multistrada Enduro");
-        moto.setYear("2018");
-        moto.setColor("Red");
-
-        return moto;
+        return dao.getMotorcycle(motoId);
     }
 
     @RequestMapping(value = "/motorcycles/{motoId}", method = RequestMethod.DELETE)

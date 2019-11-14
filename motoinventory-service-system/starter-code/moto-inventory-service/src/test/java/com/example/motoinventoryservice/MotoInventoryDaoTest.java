@@ -119,8 +119,8 @@ public class MotoInventoryDaoTest {
         mList = dao.getMotorcyclesByMake("Honda");
         assertEquals(1, mList.size());
 
-        mList = dao.getMotorcyclesByMake("Ducati");
-        assertEquals(1, mList.size());
+        mList = dao.getMotorcyclesByMake("Suzuki");
+        assertEquals(2, mList.size());
 
     }
 
