@@ -9,13 +9,14 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>moto-inventory-service</artifactId>
+	<artifactId>motoInventory-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>moto-inventory-service</name>
+	<name>motoInventory-service</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
+		<spring-cloud.version>Hoxton.RC2</spring-cloud.version>
 	</properties>
 
 	<dependencies>
@@ -95,5 +96,13 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<repositories>
+		<repository>
+			<id>spring-milestones</id>
+			<name>Spring Milestones</name>
+			<url>https://repo.spring.io/milestone</url>
+		</repository>
+	</repositories>
 
 </project>
